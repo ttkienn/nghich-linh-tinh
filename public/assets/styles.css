@@ -1,0 +1,13 @@
+body{
+    color: #fff;
+}
+.container{
+    background-color: #fff;
+    color: #000;
+}
+#submit{
+   margin-top: 10px; 
+}
+#copy{
+    margin-top: 10px;
+}
