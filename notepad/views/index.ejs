@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create NotePad Online</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="./assets/toast/toasteur-default.min.css" rel="stylesheet">
+    <script src="./assets/toast/toasteur.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tạo ghi chú dành riêng cho bạn!</h1>
+      <label for="title" class="innerTextTitler">Tiêu đề</label>
+      <input type="text" id="title" class="form-control" placeholder="Enter title" value="Chưa đặt tiêu đề!"/>
+      <label for="content">Nội dung</label>
+      <textarea id="content" name="content" class="form-control" placeholder="Enter Content" rows="10" ></textarea>
+      <button class="btn btn-primary" id="save">Create</button>
+      <button class="btn btn-primary" id="clear">Clear</button>
+      <div id="result"></div>
+      <footer>
+        <p>Created by <a href="https://facebook.com/ThieuTrungKien.Profile">Thiệu Trung Kiên</a></p>
+      </footer>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/script.js"></script>
+</html>
