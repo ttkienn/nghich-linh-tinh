@@ -1,4 +1,4 @@
 ## HDSD
 ```
-Điền url mongoDB Atlas vào config.json và npm i , npm start
+Điền url mongoURI Atlas vào config.js và npm i , npm start
 ```
